@@ -26,6 +26,8 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  background-color: white; /* or your desired background color */
+  color: black;
 }
 
 h1 {

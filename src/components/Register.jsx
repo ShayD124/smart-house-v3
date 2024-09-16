@@ -37,8 +37,8 @@ export default function Register({ onLoginView }) {
       alert("User signed up successfully!");
       setErrorMessage({});
       localStorage.setItem("user", JSON.stringify({ username, password }));
+      onLoginView();
     }
-    onLoginView();
   };
 
   return (
